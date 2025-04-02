@@ -67,7 +67,7 @@ function Homepage() {
     }, [currentTimeRange]);
 
     return (
-        <Container sx={{ m: 10 }}>
+        <Container sx={{ mx: 10, my: 5 }}>
             <Stack spacing={3}>
                 <PriceHeader isLoading={isCoinDataLoading} data={coinData?.market_data} />
                 <Box>
